@@ -11,7 +11,7 @@ class SecureEnvPHP
 
             foreach ($parsed as $key => $value) {
                 if (isset($parsed[$key]) && !empty($parsed[$key])) {
-                    putenv($key.'='.$value);
+                    $_ENV[$key] = $value;
                 }
             }
         }
