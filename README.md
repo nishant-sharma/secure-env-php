@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/johnathanmiller/secure-env-php.svg?branch=master)](https://travis-ci.org/johnathanmiller/secure-env-php)
 
+This package is a fork of [johnathanmiller/secure-env-php](https://github.com/johnathanmiller/secure-env-php). Since he wasn't maintaining this package, I was having trouble making it work with PHP 8.x. I made some changes to make it compatible.
+
 Env encryption and decryption library.  
 Prevent committing and exposing vulnerable plain-text environment variables in production environments.
 
@@ -10,7 +12,7 @@ You can view a more in-depth tutorial on [Medium](https://medium.com/@johnathanm
 ## Installation
 Install secure-env-php using Composer
 ```
-composer require johnathanmiller/secure-env-php
+composer require nishant-sharma/secure-env-php
 ```
 
 ## .env
